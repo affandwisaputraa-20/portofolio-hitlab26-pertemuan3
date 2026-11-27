@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+   <nav class="navbar_parent">
+
+        <div class="container-navbar">
+            <section class="logo_navbar">
+                <p class="logo_content">
+                    <a href="#">ADS</a>
+                </p>
+            </section>
+            <section class="list_navbar">
+                <ul class="navbar-list-content">
+                    <li class="hyperlink-list-content"><a href="#beranda">Beranda</a></li>
+                    <li class="hyperlink-list-content"><a href="#tentang-saya">Tentang Saya</a></li>
+                    <li class="hyperlink-list-content"><a href="#skill">Skill</a></li>
+                    <li class="hyperlink-list-content"><a href="#proyek">Proyek</a></li>
+                    <li class="hyperlink-list-content"><a href="#kontak">Kontak</a></li>
+                </ul>
+            </section>
+        </div>
+
+    </nav>
+
+    <!-- Hero section -->
+    <main class="hero-parent">
+
+        <div class="container-aboutMe">
+            <!-- Image Profil -->
+            <section class="profil" id="beranda">
+                <div class="profil-img">
+                    <img src="WhatsApp Image 2026-11-20 at 21.56.15.jpg" alt="img_affan">
+                </div>
+            </section>
+
+            <!-- Profil-Name -->
+            <header class="profil-name">
+                <h1 class="profil-name-content">
+                   Hi! I'm <span>Affan Dwi saputra</span>
+                </h1>
+                <h3>
+                    a <span>future web developer</span>
+                </h3>
+            </header>
+
+            <!-- Tentang saya -->
+            <section class="about-me" id="tentang-saya">
+                <header>
+                    <h4>Tentang Saya</h4>
+                </header>
+                <p>Halo! Saya Affan Dwi, mahasiswa Sistem Informasi UIN Syarif Hidayatullah Jakarta. Saya bergabung di HITLAB26 Web Developer, saya memiliki motivasi dalam belajar Web Developer yaitu ingin mempelajari bagiamana cara merancang dan membangung sebuah website yang ramah pengguna. </p>
+            </section>
+        </div>
+
+       <!-- Tabel Skill -->
+        <section class="skill-section" id="skill">
+            <header class="heading_table-content">
+                <h4>Skill</h4>
+            </header>
+            <table class="skill-table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Skill</th>
+                        <th>Tingkat Kemahiran</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>HTML</td>
+                        <td>Basic</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CSS</td>
+                        <td>Basic</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Proyek -->
+        <section class="project-section" id="proyek">
+            <header class="heading_project-content">
+                <h4>Proyek</h4>
+            </header>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h5>Digital CV</h5>
+                    <p>Halaman CV online dengan struktur HTML semantik, dibuat pada pertemuan kedua HITLAB.</p>
+                    <a href="#" class="project-btn">Lihat Proyek</a>
+                </article>
+
+                <article class="project-card">
+                    <h5>Landing Page Kopi</h5>
+                    <p>Halaman promosi sederhana untuk kedai kopi dengan layout Flexbox dan tampilan responsif.</p>
+                    <a href="#" class="project-btn">Lihat Proyek</a>
+                </article>
+
+                <article class="project-card">
+                    <h5>Galeri Foto</h5>
+                    <p>Galeri tiga kolom menggunakan CSS Grid yang berubah menjadi satu kolom di layar HP.</p>
+                    <a href="#" class="project-btn">Lihat Proyek</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Form Kontak -->
+        <section class="contact-section" id="kontak">
+            <header class="heading_contact-content">
+                <h4>Hubungi Saya</h4>
+            </header>
+            <form class="contact-form" method="post">
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesanmu di sini" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn" style="cursor: pointer;">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-parent">
+       <p>
+            &copy; 2026 Portofolio - Affan Dwi Saputra. Hak cipta dilindungi undang-undang.
+       </p>
+    </footer
+</body>
+</html>
